@@ -1,0 +1,115 @@
+header{
+    width: 90%;
+    height: 150px;
+    border-spacing: 5px;
+    background-color: #d084da;
+    color: aliceblue;
+    border-radius: 20px;
+    }
+    nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(225, 147, 228);
+    border-radius: 20px;
+    
+    }
+    aside{
+      width: 20%;
+      height: 450px;
+      float: right;
+      display: block;
+      background-color: rgb(168, 117, 216);
+      border-radius: 20px;
+      margin-right: 2%;
+      }
+    article{
+    width: 65%;
+    height: 400px;
+    float: left;
+    display: block;
+    background-color: aquamarine;
+    
+    }
+    section#izquierda{
+    position: relative;
+    display: block;
+    float: right;
+    width: 46%;
+    height: 320px;
+    background-color: #c693d3;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 5%;
+    border-radius: 20px;
+    
+    }
+    section#derecha{
+        position: relative;      
+display: block;
+float: left;
+width: 46%;
+height: 320px;
+background-color: #ee93a2;
+margin-left: 2%;
+margin-left: 2%;
+margin-top: 5%;
+border-radius: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(177, 106, 218);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: rgb(4, 3, 5);
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #d390d6;
+  }
+  
+  .active {
+    background-color: rgb(177, 106, 218);
+  }
+  
+footer {
+	float: right;
+	background: black;
+	color: white;
+	text-align: center;
+	width: 100%;
+	padding-top: 10px;
+	height: 70px;
+	color: #FFFFFF;
+	font-family: Abadi1;
+	font-size: 1.5em;
+  border-radius: 20px;
+}
+footer a{
+	color: white;
+	text-decoration: none;
+}
+footer a:hover{
+	color: #9954CC;
+	text-decoration: underline;
+}
+a:hover{
+	color: #FFD966;
+}
+.deco{
+	color: #FFFFFF;
+	text-decoration: none;
+	cursor: default;
+}
